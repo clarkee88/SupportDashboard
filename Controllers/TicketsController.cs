@@ -8,8 +8,14 @@ namespace SupportDashboard.Controllers{
     [Route("api/tickets")]
     [ApiController]
     public class TicketsController : ControllerBase{
+        private readonly ISupportDashboardRepo _repository;
 
-        private readonly MockRepo _repository = new MockRepo();
+        public TicketsController(ISupportDashboardRepo repository)
+        {
+           _repository = repository; 
+        }
+        
+        //private readonly MockRepo _repository = new MockRepo();
 
         [HttpGet]
         public ActionResult <IEnumerable<Ticket>> GetAllOpenTickets(){
