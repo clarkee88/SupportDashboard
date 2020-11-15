@@ -15,5 +15,17 @@ namespace SupportDashboard.Data{
 
             return tickets;
         }
+
+        public IEnumerable<TimeStat> GetTimeStats(){
+            var timeStats = new List<TimeStat>{
+                new TimeStat{userName = "ECE", timeToday = "5", timeWeek = "14"},
+                new TimeStat{userName = "LKCN", timeToday = "2", timeWeek = "6"},
+                new TimeStat{userName = "CBD", timeToday = "6", timeWeek = "18"},
+                new TimeStat{userName = "RSED", timeToday = "5", timeWeek = "10"},
+                new TimeStat{userName = "TMHD", timeToday = "3.5", timeWeek = "13"},
+            };
+
+            return timeStats;
+        }
     }
 }
