@@ -16,9 +16,14 @@ namespace SupportDashboard.Controllers{
            _repository = repository; 
         }
 
-        [HttpGet]
-        public ActionResult <IEnumerable<TimeStat>> GetTimeStats(){
-            var timeStats = _repository.GetTimeStats();
+        // [HttpGet]
+        // public ActionResult <IEnumerable<TimeStat>> GetTimeStats(){
+        //     var timeStats = _repository.GetTimeStats();
+        //     return Ok(timeStats);
+        // }
+    [HttpGet]
+    public ActionResult <IEnumerable<TimeStatViewModel>> GetTimeStatViewModels(){
+            var timeStats = _repository.GetTimeStatViewModels();
             return Ok(timeStats);
         }
 

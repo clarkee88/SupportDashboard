@@ -7,5 +7,6 @@ namespace SupportDashboard.Data{
     {
         IEnumerable<Ticket> GetAllOpenTickets();
         IEnumerable<TimeStat> GetTimeStats();
+        IEnumerable<TimeStatViewModel> GetTimeStatViewModels();
     }
 }
