@@ -18,3 +18,11 @@ C:\WebDev\SupportDashboard\obj\Debug\netcoreapp3.1\staticwebassets\SupportDashbo
 C:\WebDev\SupportDashboard\obj\Debug\netcoreapp3.1\SupportDashboard.dll
 C:\WebDev\SupportDashboard\obj\Debug\netcoreapp3.1\SupportDashboard.pdb
 C:\WebDev\SupportDashboard\obj\Debug\netcoreapp3.1\SupportDashboard.genruntimeconfig.cache
+C:\WebDev\SupportDashboard\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\WebDev\SupportDashboard\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\WebDev\SupportDashboard\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\WebDev\SupportDashboard\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\WebDev\SupportDashboard\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\WebDev\SupportDashboard\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WebDev\SupportDashboard\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\WebDev\SupportDashboard\obj\Debug\netcoreapp3.1\SupportDashboard.csproj.CopyComplete

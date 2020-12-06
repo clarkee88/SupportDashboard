@@ -28,7 +28,7 @@ namespace SupportDashboard
         {
             services.AddControllers();
 
-            services.AddScoped<ISupportDashboardRepo, MockRepo>();
+            services.AddScoped<ISupportDashboardRepo, SQLRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
